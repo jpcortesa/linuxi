@@ -1,9 +1,8 @@
 - name: prueba ansible platform
- hosts: ubuntu
-
-tasks:
+  hosts: ubuntu
+  tasks:
 - name: crear archivo
- ansible.builtin.file:
-  path: /tmp/prueba-ansible-plat.txt
-  state: touch
-  mode: 0777
+  ansible.builtin.file:
+     path: /tmp/prueba-ansible-plat.txt
+     state: touch
+     mode: 0777
