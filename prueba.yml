@@ -1,5 +1,5 @@
 - name: prueba ansible platform
-  #hosts: all
+  hosts:
   tasks:
   - name: crear archivo
     ansible.builtin.file:
